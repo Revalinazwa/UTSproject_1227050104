@@ -24,7 +24,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Food Name: Batagor"
+        android:text="Nama Pesanan: Batagor"
         android:textSize="18sp"
         android:layout_marginBottom="8dp"/>
 
@@ -32,7 +32,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Number of Servings: 2 pax"
+        android:text="Jumlah Sajian: 2 pax"
         android:textSize="18sp"
         android:layout_marginBottom="8dp"/>
 
@@ -40,7 +40,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ordering Name: Usep"
+        android:text="Nama Pemesan: Usep"
         android:textSize="18sp"
         android:layout_marginBottom="8dp"/>
 
@@ -48,7 +48,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Additional Notes: Tidak Pedas"
+        android:text="Catatan tambahan: Tidak Pedas"
         android:textSize="18sp"
         android:layout_marginBottom="16dp"/>
 
@@ -56,7 +56,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Thanks for your order and please wait for delivering by nearest courier"
+        android:text="Terima kasih atas orderannya. Mohon tunggu untuk pemesananan oleh kurir terdekat."
         android:textStyle="bold"
         android:textSize="18sp"
         android:layout_marginBottom="8dp"/>
@@ -65,6 +65,6 @@
         android:id="@+id/backtoMenu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Back to Menu"/>
+        android:text="Kembali ke Menu"/>
 
 </LinearLayout>

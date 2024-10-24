@@ -24,14 +24,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Food Name"
+            android:text="Nama Makanan"
             android:textSize="18sp"
             android:layout_marginBottom="8dp"/>
         <TextView
             android:id="@+id/etFoodName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter food name - Get From List"
+            android:hint="Masukan pesanan dari daftar makanan"
             android:padding="12dp"
             android:layout_marginBottom="16dp"/>
 
@@ -39,14 +39,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Number of Servings"
+            android:text="Jumlah Sajian"
             android:textSize="18sp"
             android:layout_marginBottom="8dp"/>
         <EditText
             android:id="@+id/etServings"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter number of servings"
+            android:hint="Masukan jumlah sajian"
             android:inputType="number"
             android:padding="12dp"
             android:layout_marginBottom="16dp"/>
@@ -55,14 +55,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ordering Name"
+            android:text="Nama Pemesan"
             android:textSize="18sp"
             android:layout_marginBottom="8dp"/>
         <EditText
             android:id="@+id/etName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Ordering name by"
+            android:hint="Masukan nama"
             android:padding="12dp"
             android:layout_marginBottom="16dp"/>
 
@@ -71,14 +71,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Additional Notes"
+            android:text="Catatan tambahan"
             android:textSize="18sp"
             android:layout_marginBottom="8dp"/>
         <EditText
             android:id="@+id/etNotes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter any additional notes"
+            android:hint="Kalau ada masukin aja, ya"
             android:padding="12dp"
             android:layout_marginBottom="16dp"/>
 
@@ -87,7 +87,7 @@
             android:id="@+id/btnOrder"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Place Order"
+            android:text="Pesan sekarang"
             android:textColor="@android:color/white"
             android:padding="12dp"/>
 
