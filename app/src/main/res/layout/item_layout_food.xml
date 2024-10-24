@@ -1,157 +1,311 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
 
-    <!-- Gambar Makanan -->
-    <ImageView
-        android:id="@+id/foodImage"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:src="@drawable/batagor"
-        android:layout_marginEnd="8dp"/>
-
-    <!-- Nama dan Deskripsi Makanan -->
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/foodName"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Batagor Garing"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:layout_marginBottom="4dp"/>
-
-        <TextView
-            android:id="@+id/foodDescription"
-            android:layout_width="295dp"
-            android:layout_height="wrap_content"
-            android:text="Batgor asli Bandung dengan bahan ikan tenggiri yang berkualitas."
-            android:textColor="#6D6D6D"
-            android:textSize="14sp" />
+        android:orientation="horizontal"
+        android:padding="8dp">
 
         <ImageView
-            android:id="@+id/foodImage"
+            android:id="@+id/foodImage1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/batagor"
+            android:layout_marginEnd="8dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/foodName1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Batagor Garing"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/foodDescription1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Batagor asli Bandung dengan bahan ikan tenggiri yang berkualitas."
+                android:textColor="#6D6D6D"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/foodImage2"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:src="@drawable/black_salad"
-            android:layout_marginEnd="8dp"/>
+            android:layout_marginEnd="8dp" />
 
-        <TextView
-            android:id="@+id/foodName"
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Black Salad"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:layout_marginBottom="4dp"/>
+            android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/foodDescription"
-            android:layout_width="295dp"
-            android:layout_height="wrap_content"
-            android:text="Salad buah yang segar dan manis."
-            android:textColor="#6D6D6D"
-            android:textSize="14sp" />
+            <TextView
+                android:id="@+id/foodName2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Black Salad"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/foodDescription2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Salad buah yang segar dan manis."
+                android:textColor="#6D6D6D"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
 
         <ImageView
-            android:id="@+id/foodImage"
+            android:id="@+id/foodImage3"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:src="@drawable/cappuchino"
-            android:layout_marginEnd="8dp"/>
+            android:layout_marginEnd="8dp" />
 
-        <TextView
-            android:id="@+id/foodName"
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Cappuchino"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:layout_marginBottom="4dp"/>
+            android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/foodDescription"
-            android:layout_width="295dp"
-            android:layout_height="wrap_content"
-            android:text="Minuman kopi varian dingin maupun panas."
-            android:textColor="#6D6D6D"
-            android:textSize="14sp" />
+            <TextView
+                android:id="@+id/foodName3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cappuchino"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/foodDescription3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Minuman kopi varian dingin maupun panas."
+                android:textColor="#6D6D6D"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
 
         <ImageView
-            android:id="@+id/foodImage"
+            android:id="@+id/foodImage4"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:src="@drawable/cheesecake"
-            android:layout_marginEnd="8dp"/>
+            android:layout_marginEnd="8dp" />
 
-        <TextView
-            android:id="@+id/foodName"
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Cheese Cake"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:layout_marginBottom="4dp"/>
+            android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/foodDescription"
-            android:layout_width="295dp"
-            android:layout_height="wrap_content"
-            android:text="Dessert keju dengan rasa yang enak dan bahan yang berkualitas."
-            android:textColor="#6D6D6D"
-            android:textSize="14sp" />
+            <TextView
+                android:id="@+id/foodName4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cheesecake"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/foodDescription4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dessert keju dengan rasa yang enak dan bahan yang berkualitas."
+                android:textColor="#6D6D6D"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
 
         <ImageView
-            android:id="@+id/foodImage"
+            android:id="@+id/foodImage5"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:src="@drawable/cireng"
-            android:layout_marginEnd="8dp"/>
+            android:layout_marginEnd="8dp" />
 
-        <TextView
-            android:id="@+id/foodName"
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Cireng Mantap"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:layout_marginBottom="4dp"/>
+            android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/foodDescription"
-            android:layout_width="295dp"
-            android:layout_height="wrap_content"
-            android:text="Cireng isi dengan varian berbagai isi."
-            android:textColor="#6D6D6D"
-            android:textSize="14sp" />
+            <TextView
+                android:id="@+id/foodName5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cireng Raos"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginBottom="4dp" />
 
-        <TextView
-            android:id="@+id/foodName"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Donat Madu"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:layout_marginBottom="4dp"/>
-
-        <TextView
-            android:id="@+id/foodDescription"
-            android:layout_width="295dp"
-            android:layout_height="wrap_content"
-            android:text="Cemilan donat yang lembut dengan harga terjangkau."
-            android:textColor="#6D6D6D"
-            android:textSize="14sp" />
-
+            <TextView
+                android:id="@+id/foodDescription5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cireng isi dengan varian berbagai isi."
+                android:textColor="#6D6D6D"
+                android:textSize="14sp" />
+        </LinearLayout>
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/foodImage6"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/donut"
+            android:layout_marginEnd="8dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/foodName6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Donat Madu"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/foodDescription6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cemilan donat yang lembut dengan harga terjangkau."
+                android:textColor="#6D6D6D"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/foodImage7"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/nasigoreng"
+            android:layout_marginEnd="8dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/foodName7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nasi Goreng Mang Ujang"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/foodDescription7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nasi goreng dengan aneka topping yang melimpah."
+                android:textColor="#6D6D6D"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/foodImage8"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/mie_goreng"
+            android:layout_marginEnd="8dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/foodName8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mie Goreng Ceu Yuyun"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/foodDescription8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mie goreng nikmat tiada dua."
+                android:textColor="#6D6D6D"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
 </LinearLayout>
