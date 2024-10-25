@@ -14,7 +14,7 @@
         android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Order Food"
+        android:text="@string/judulHalConfirmation"
         android:textSize="24sp"
         android:textStyle="bold"
         android:layout_gravity="center_horizontal"
@@ -22,33 +22,37 @@
 
     <!-- Confirmation Nama Makanan -->
     <TextView
+        android:id="@+id/tvFoodName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nama Pesanan: Batagor"
+        android:text="@string/nama_pesanan"
         android:textSize="18sp"
         android:layout_marginBottom="8dp"/>
 
     <!-- Confirmation Jumlah Porsi -->
     <TextView
+        android:id="@+id/tvServings"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Jumlah Sajian: 2 pax"
+        android:text="@string/jumlah_sajian"
         android:textSize="18sp"
         android:layout_marginBottom="8dp"/>
 
     <!-- Confirmation Nama pengorder -->
     <TextView
+        android:id="@+id/tvName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nama Pemesan: Usep"
+        android:text="@string/nama_pemesan"
         android:textSize="18sp"
         android:layout_marginBottom="8dp"/>
 
     <!-- Input Catatan Tambahan -->
     <TextView
+        android:id="@+id/tvNote"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Catatan tambahan: Tidak Pedas"
+        android:text="@string/catatan_tambahan"
         android:textSize="18sp"
         android:layout_marginBottom="16dp"/>
 
@@ -56,15 +60,15 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Terima kasih atas orderannya. Mohon tunggu untuk pemesananan oleh kurir terdekat."
+        android:text="@string/pesanKonfirmasi"
         android:textStyle="bold"
         android:textSize="18sp"
         android:layout_marginBottom="8dp"/>
 
     <Button
-        android:id="@+id/backtoMenu"
+        android:id="@+id/btnBackToMenu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Kembali ke Menu"/>
+        android:text="@string/backToMenu"/>
 
 </LinearLayout>

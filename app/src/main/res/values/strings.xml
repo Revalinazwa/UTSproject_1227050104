@@ -5,4 +5,26 @@
     <string name="login">Login\n</string>
     <string name="register">Register Here</string>
     <string name="food_list_title">Food and Beverages</string>
+    <string name="catatan_tambahan">Catatan tambahan:</string>
+    <string name="pesanKonfirmasi">Terima kasih atas orderannya. Mohon tunggu untuk pemesanan oleh kurir terdekat.</string>
+    <string name="backToMenu">Kembali ke Menu</string>
+    <string name="nama_pemesan">Nama Pemesan:</string>
+    <string name="jumlah_sajian">Jumlah Sajian:</string>
+    <string name="nama_pesanan">Nama Pesanan:</string>
+    <string name="judulHalConfirmation">Order Food</string>
+    <string name="food_name">Food Name</string>
+    <string name="description">Description of the food.</string>
+    <string name="judulHalActOrd">Order Food</string>
+    <string name="nama_makanan">Nama Makanan</string>
+    <string name="input_pesanan">Masukan pesanan dari daftar makanan</string>
+    <string name="input_sajian">Jumlah Sajian</string>
+    <string name="input_sajian_qty">Masukan jumlah sajian</string>
+    <string name="ket_input_nama">Nama Pemesan</string>
+    <string name="input_customer_name">Masukan nama</string>
+    <string name="ket_catatan">Catatan Tambahan</string>
+    <string name="input_catatan">Kalau ada masukin aja, ya</string>
+    <string name="pesan_sekarang">Pesan sekarang</string>
+    <string name="logout">Logout</string>
+    <string name="order">Order</string>
+    <string name="daftar_menu">Daftar Menu</string>
 </resources>

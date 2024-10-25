@@ -14,24 +14,25 @@
             android:id="@+id/tvTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Order Food"
+            android:text="@string/judulHalActOrd"
             android:textSize="24sp"
             android:textStyle="bold"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="16dp"/>
 
         <!-- Input Nama Makanan -->
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nama Makanan"
+            android:text="@string/nama_makanan"
             android:textSize="18sp"
             android:layout_marginBottom="8dp"/>
-        <TextView
+        <EditText
             android:id="@+id/etFoodName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Masukan pesanan dari daftar makanan"
+            android:hint="@string/input_pesanan"
             android:padding="12dp"
             android:layout_marginBottom="16dp"/>
 
@@ -39,14 +40,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Jumlah Sajian"
+            android:text="@string/input_sajian"
             android:textSize="18sp"
             android:layout_marginBottom="8dp"/>
         <EditText
             android:id="@+id/etServings"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Masukan jumlah sajian"
+            android:hint="@string/input_sajian_qty"
             android:inputType="number"
             android:padding="12dp"
             android:layout_marginBottom="16dp"/>
@@ -55,14 +56,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nama Pemesan"
+            android:text="@string/ket_input_nama"
             android:textSize="18sp"
             android:layout_marginBottom="8dp"/>
         <EditText
             android:id="@+id/etName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Masukan nama"
+            android:hint="@string/input_customer_name"
             android:padding="12dp"
             android:layout_marginBottom="16dp"/>
 
@@ -71,23 +72,32 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Catatan tambahan"
+            android:text="@string/ket_catatan"
             android:textSize="18sp"
             android:layout_marginBottom="8dp"/>
         <EditText
             android:id="@+id/etNotes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Kalau ada masukin aja, ya"
+            android:hint="@string/input_catatan"
             android:padding="12dp"
             android:layout_marginBottom="16dp"/>
 
         <!-- Tombol Order -->
         <Button
-            android:id="@+id/btnOrder"
+            android:id="@+id/btnPesanSekarang"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Pesan sekarang"
+            android:text="@string/pesan_sekarang"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@android:color/white"
+            android:padding="12dp"/>
+
+        <Button
+            android:id="@+id/btnDaftarMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/daftar_menu"
             android:layout_gravity="center_horizontal"
             android:textColor="@android:color/white"
             android:padding="12dp"/>
